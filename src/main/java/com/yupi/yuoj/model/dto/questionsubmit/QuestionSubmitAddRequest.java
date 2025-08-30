@@ -14,7 +14,7 @@ import java.util.Date;
  * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Data
-public class QuestionSubmitAddRequest extends PageRequest implements Serializable {
+public class QuestionSubmitAddRequest implements Serializable {
 
     /**
      * 编程语言
