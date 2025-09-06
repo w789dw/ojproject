@@ -1,5 +1,6 @@
 package com.yupi.yuojcodesandbox.controller;
 
+import com.yupi.yuojcodesandbox.JavaNativeCodeSandbox;
 import com.yupi.yuojcodesandbox.JavaNativeCodeSandboxOld;
 import com.yupi.yuojcodesandbox.model.ExecuteCodeRequest;
 import com.yupi.yuojcodesandbox.model.ExecuteCodeResponse;
@@ -16,7 +17,7 @@ public class MainController {
     private static final String AUTH_REQUEST_SECREAT = "secretKey";
 
     @Resource
-    private JavaNativeCodeSandboxOld javaNativeCodeSandbox;
+    private JavaNativeCodeSandbox javaNativeCodeSandbox;
 
     @GetMapping("/health")
     public String healthCheck() {
