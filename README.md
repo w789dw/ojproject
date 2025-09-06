@@ -3,6 +3,9 @@
 > 作者：[程序员鱼皮](https://github.com/liyupi)
 > 仅分享于 [编程导航知识星球](https://yupi.icu)
 
+## 根据后台生成代码
+openapi --input http://localhost:8121/api/v2/api-docs --output ./generated --client axios
+
 基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。
 
 只需 1 分钟即可完成内容网站的后端！！！大家还可以在此基础上快速开发自己的项目。
